@@ -7,10 +7,13 @@ import "./MySearch.css";
 
 const MySearch = () => {
   const [searchKey, setSearchKey] = React.useState("");
+  const [onOff, setOnOff] = React.useState(true);
+  
   return (
     <div className="container">
       <h3>Search by first name from thousend </h3>
-      <input
+      
+      <lable style={{"font-size":"23px","color":"blue" }}>Search bar:</lable><input
         type="text"
         placeholder="Search Here"
         onChange={(event) => {
