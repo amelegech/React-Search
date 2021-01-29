@@ -1,0 +1,39 @@
+.container{
+    width: 300px;
+    padding: 25px;
+    border: 30px;
+    align-items: center;
+    align-content: center;
+    margin-left: 100px;
+    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction:column;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    input{
+    margin-top:25px ;
+    width:250px;
+    height: 30px;
+    background-color: rgb(65, 17, 54);
+    border-color: rgb(149, 24, 160);
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    }
+    p{
+        background-color: rgb(94, 85, 91);
+        color: rgb(253, 192, 224);
+        margin: 8px;
+        font-size: 16px;
+    }
+    
+    h5{
+        background-color: rgb(238, 216, 216);
+        color: hotpink;
+        padding: 20px;
+        font-size: 20px;
+    }
